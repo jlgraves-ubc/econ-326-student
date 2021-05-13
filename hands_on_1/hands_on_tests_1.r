@@ -24,7 +24,7 @@ test_3 <- function()  {
 
 test_4 <- function()  {
     test_that("Solution is incorrect",  {
-        expect_equal(digest(answer4), "b09db48ab3bbf872355973edd9312f10")
+        expect_equal(digest(answer4), "8374f38b3080b4b91ddd610f7f0d2530")
     })
     print("Success!")
 }
@@ -108,7 +108,7 @@ test_15 <- function()  {
 
 test_16 <- function()  {
     test_that("Solution is incorrect",  {
-        expect_equal(digest(hist_men), "9ac2eeafc87a41bcb18d1689ef41e004")
+        expect_equal(digest(hist_men), "dd2e70eae8c4f4f037ca7013a4fc81be")
     })
     print("Success!")
 }
