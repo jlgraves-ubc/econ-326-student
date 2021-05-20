@@ -59,7 +59,7 @@ test_7 <- function() {
 
 test_8 <- function() {
   test_that("Solution is incorrect", {
-    expect_equal(digest(round(reg2B$coefficients,2)), "29b5c9ce06478ed8839c2e0cdee08a52")
+    expect_equal(digest(round(reg2B$coefficients[1],2)), "dc866355624fa98af7f3af50cec3c7ff")
   })
   print("Success!")
 }
