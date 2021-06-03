@@ -33,7 +33,7 @@ test_4 <- function() {
 
 test_5 <- function() {
   test_that("Solution is incorrect", {
-    expect_equal(digest(round(reg5$residuals[1], 3)), "bbfd349bb38017dca76e637fb2dc5373")
+    expect_equal(digest(round(reg5$residuals[1], 3)), "02cba6d8393bb07ad6a077228a380f34")
   })
   print("Success!")
 }
